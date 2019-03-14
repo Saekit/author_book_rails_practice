@@ -22,9 +22,6 @@ class BooksController < ApplicationController
     redirect_to Book.find(params[:book_id])
   end
 
-  def add_author_books
-    byebug
-  end
 
   private
   def book_params
